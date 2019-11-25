@@ -1,6 +1,6 @@
 package com.example.understandmvp.Model;
 
-public class User {
+public class Entity {
 
     String username;
     String password;
@@ -21,8 +21,8 @@ public class User {
         this.password = password;
     }
 
-    public User(String usermame, String password) {
-        this.username = usermame;
+    public Entity(String username, String password) {
+        this.username = username;
         this.password = password;
     }
 }
